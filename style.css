@@ -1,0 +1,64 @@
+body{
+    background-image: url(bggamm.jpg);
+    background-size: cover;
+}
+
+#canvas
+{
+    background-color:#30c0df;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    padding: auto;
+    
+}
+
+
+        .back-button {
+            position: fixed;
+            bottom: 100px;
+            left: 540px;
+            padding: 10px 18px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    
+
+        .container22{
+            width: 20%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .text22{
+            font-family: sans-serif;
+            font-size: 50px;
+            font-weight: 900;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            color: transparent;
+            background-size: 400% 400%;
+            background-clip: text;
+            animation: gradient 5s ease infinite;
+            text-overflow: clip;
+        }
+        
+        @keyframes gradient{
+            0% {
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0% 50%;
+            }
+        }
